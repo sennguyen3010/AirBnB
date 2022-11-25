@@ -1,0 +1,107 @@
+.profile {
+    .container {
+        padding: 60px 0;
+
+        .row {
+            .col-4 {
+                .card {
+                    padding: 24px;
+                    border-radius: 12px;
+                    max-width: 308px;
+
+                    .card_img {
+                        margin: 0 auto;
+                        margin-bottom: 32px;
+                        width: 128px;
+                        text-align: center;
+
+                        img {
+                            width: 100%;
+                            border-radius: 50%;
+                        }
+
+                        a {
+                            text-decoration: revert;
+                        }
+                    }
+
+                    div {
+                        svg {
+                            width: 24px;
+                            height: 24px;
+                            margin-bottom: 16px;
+
+                        }
+
+                        h4 {
+                            @include text ($text-xl, $text-bold, $text-c1-dark);
+                        }
+
+                        p {
+                            @include text ($text-base, $text-light , $text-c1-dark);
+                            line-height: 20px;
+
+                        }
+
+                        button {
+                            padding: 13px 23px;
+                            background-color: white;
+                            border-radius: 8px;
+                            border: 1px solid;
+                            @include text ($text-base, $text-semibold , $text-c1-dark);
+
+                        }
+                    }
+
+                    hr {
+                        margin: 32px 0
+                    }
+
+                    h3 {
+                        @include text ($text-2xl, $text-bold, $text-c1-dark);
+
+                    }
+
+                    .card-bt {
+                        margin-bottom: 16px;
+
+                        svg {
+                            width: 16px;
+                            height: 16px;
+                            margin: 0;
+                        }
+
+                        span {
+                            padding-left: 10px;
+                            @include text ($text-base, $text-light , $text-c1-dark);
+                        }
+                    }
+                }
+            }
+
+            .col-8 {
+                h1 {
+                    @include text ($text-3xl, $text-bold, $text-c1-dark);
+
+                }
+
+                p {
+                    @include text ($text-xs, $text-light, $text-c2-dark);
+                    line-height: 18px;
+
+                }
+
+                a {
+                    text-decoration: revert;
+                }
+
+                div {
+                    p {
+                        @include text ($text-2xl, $text-bold, $text-c1-dark);
+
+                    }
+                }
+            }
+        }
+    }
+}

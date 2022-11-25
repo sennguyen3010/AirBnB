@@ -1,0 +1,7 @@
+.header-datagrid{
+    background-color: $bg-c1-primary;
+    & .MuiDataGrid-columnHeaderTitle{
+        color: #fff;
+        font-weight: 600;
+    }
+}

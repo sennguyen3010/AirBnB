@@ -1,0 +1,30 @@
+.modal_comment-process {
+  position: fixed;
+  width: 30%;
+}
+.modal_comment-item {
+  margin-top: 0;
+}
+.modal_comment-body {
+  min-height: 400px;
+}
+
+//responsive
+@media (max-width: 1200px) {
+  .detail_comment-process {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal_comment-process {
+    position: relative;
+    width: 100%;
+  }
+  .modal_comment-write {
+    margin-top: 20px;
+  }
+  .modal_comment-rate-star {
+    font-size: 14px !important;
+  }
+}

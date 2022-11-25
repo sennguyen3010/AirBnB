@@ -1,0 +1,25 @@
+//Variable
+@import './base/base';
+@import './base/variables';
+//Components
+@import './components/header';
+@import './components/BookRoom/bookRoom';
+@import './components/Comments/comments';
+@import './components/Convenient/convenient';
+@import './components/header';
+@import './components/Popper/popperWrapper';
+@import './components/Menu/userMenu';
+@import './components/Datagrid/datagrid';
+
+@import './components/AdminLocation/adminLocation';
+@import './components/AdminLocation/modalAdminLocation';
+@import './components/Loading/loading';
+
+//Pages
+@import './components/Footer/footer';
+@import './pages/login';
+@import './pages/register';
+@import './pages/profile';
+@import './pages/mobileProfile';
+@import './pages/detail';
+@import './pages/quanLyThongTinPhong';

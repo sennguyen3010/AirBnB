@@ -1,0 +1,200 @@
+.mobileProfile {
+    margin: 36px 24px 24px;
+
+    .container {
+        @media only screen and (max-width: 576px) {
+            .info {
+                margin-bottom: 32px;
+
+                .row {
+
+                    .col-9 {
+                        h1 {
+
+                            @include text (26px, $text-bold, $text-c1-dark);
+
+                        }
+
+                        p {
+                            @include text (14px, $text-light, $text-c2-dark);
+                            margin-bottom: 8px;
+                        }
+
+                        a {
+                            text-decoration: revert;
+
+                            @include text (14px, $text-light, $text-c1-dark);
+                        }
+                    }
+
+                    .col-3 {
+                        text-align: center;
+
+                        img {
+                            width: 100%;
+                            border-radius: 50%;
+                        }
+
+                        a {
+                            text-decoration: revert;
+                            margin: 0 -20px;
+                            @include text (14px, $text-light, $text-c1-dark);
+                        }
+                    }
+                }
+            }
+
+            svg {
+                margin-bottom: 16px;
+                height: 24px;
+                width: 24px;
+            }
+
+            div {
+                h4 {
+                    @include text (18px, $text-semibold, $text-c1-dark);
+                    margin-bottom: 8px;
+                }
+
+                p {
+                    @include text (16px, $text-light, $text-c2-dark);
+                    margin-bottom: 16px;
+                }
+
+                button {
+                    padding: 13px 23px;
+                    background-color: white;
+                    border-radius: 8px;
+                    border: 1px solid;
+                    @include text ($text-base, $text-semibold , $text-c1-dark);
+
+                }
+            }
+
+            hr {
+                margin: 32px 0;
+
+            }
+
+            div {
+                h3 {
+                    @include text (18px, $text-semibold, $text-c1-dark);
+                    margin-bottom: 32px;
+                }
+
+                .card-bt {
+                    margin-bottom: 16px;
+
+                    svg {
+                        width: 16px;
+                        height: 16px;
+                        margin: 0;
+                    }
+
+                    span {
+                        padding-left: 10px;
+                        @include text ($text-base, $text-light , $text-c1-dark);
+                    }
+                }
+            }
+        }
+
+        @media only screen and (max-width: 786px) {
+            .info {
+                margin-bottom: 32px;
+
+                .row {
+
+                    .col-9 {
+                        h1 {
+
+                            @include text (32px, $text-bold, $text-c1-dark);
+
+                        }
+
+                        p {
+                            @include text (14px, $text-light, $text-c2-dark);
+                            margin-bottom: 8px;
+                        }
+
+                        a {
+                            text-decoration: revert;
+                            margin: 32px 0px 48px 0px;
+                            @include text (14px, $text-light, $text-c1-dark);
+                        }
+                    }
+
+                    .col-3 {
+                        text-align: center;
+
+                        img {
+                            width: 100%;
+                            border-radius: 50%;
+                        }
+
+                        a {
+                            text-decoration: revert;
+                            margin: 0 -20px;
+                            @include text (14px, $text-light, $text-c1-dark);
+                        }
+                    }
+                }
+            }
+
+            svg {
+                margin-bottom: 16px;
+                height: 24px;
+                width: 24px;
+            }
+
+            div {
+                h4 {
+                    @include text (18px, $text-semibold, $text-c1-dark);
+                    margin-bottom: 8px;
+                }
+
+                p {
+                    @include text (16px, $text-light, $text-c2-dark);
+                    margin-bottom: 16px;
+                }
+
+                button {
+                    padding: 13px 23px;
+                    background-color: white;
+                    border-radius: 8px;
+                    border: 1px solid;
+                    @include text ($text-base, $text-semibold , $text-c1-dark);
+
+                }
+            }
+
+            hr {
+                margin: 32px 0;
+
+            }
+
+            div {
+                h3 {
+                    @include text (18px, $text-semibold, $text-c1-dark);
+                    margin-bottom: 32px;
+                }
+
+                .card-bt {
+                    margin-bottom: 16px;
+
+                    svg {
+                        width: 16px;
+                        height: 16px;
+                        margin: 0;
+                    }
+
+                    span {
+                        padding-left: 10px;
+                        @include text ($text-base, $text-light , $text-c1-dark);
+                    }
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,49 @@
+.modal_ad-lable {
+  @include text(16px, 600, #0d0c22);
+}
+.modal_ad-input {
+  border: 1px solid transparent;
+  background-color: #f3f3f4;
+  height: 45px;
+  padding: 10px 16px;
+  transition: all ease 200ms;
+  border-radius: 8px;
+
+  &:hover {
+    border-color: rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px #feedf3;
+  }
+  &:focus {
+    border-color: rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px #feedf3;
+    border-color: #fabacf;
+  }
+}
+
+.modal_ad-btn-submit {
+  // background-color: #e94d89;
+  background-color: #ff385c;
+  // height: 40px;
+  padding: 12px 10px;
+  @include text(14px, 600, #fff);
+  width: 100px;
+  transition: all ease 200ms;
+  border: none;
+  border-radius: 8px;
+
+  &:hover {
+    // background-color: #f082ac;
+    background-color: #e2082ee3;
+    color: #fff;
+  }
+  &:active {
+    background-color: #bb3d6e;
+  }
+}
+
+.modal_ad-img {
+  border-radius: 10px;
+  height: 350px;
+}

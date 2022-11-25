@@ -1,0 +1,90 @@
+// ----------------Text----------------
+// text-size
+$text-xs: 14px;
+$text-base: 16px;
+$text-xl: 18px;
+$text-2xl: 20px;
+$text-3xl: 32px;
+$text-4xl: 40px;
+$text-5xl: 50px;
+$text-6xl: 60px;
+// font-weight
+$text-light: 300;
+$text-regular: 400;
+$text-semibold: 600;
+$text-bold: 700;
+// text-color
+$text-c1-primary: #FF385C;
+$text-c1-dark: #222222;
+$text-c2-dark: #717171;
+$text-c3-dark: #e2e2e2;
+$text-c4-dark: #222222;
+$text-c5-dark: #140101;
+$text-c1-light: #fff;
+$text-c2-light: #FFFCFC;
+$text-c3-light: #f8f8f8;
+$text-c1-pink: #d46661;
+$text-c2-pink: #c43a33;
+$text-c1-purple: #AC73FF;
+$text-c2-purple: #7a4495;
+$text-c1-red: #FC0303;
+$text-c2-red: #F32939;
+// ----------------Background----------------
+// bg-color
+$bg-c1-primary: #FF385C;
+$bg-c1-secondary: #dcd1f3;
+$bg-c1-light: #fff;
+$bg-c2-light: #f8f8f8;
+$bg-c3-light: #f8f8f8;
+$bg-c4-light: #CCCCCC;
+$bg-c1-dark: #000;
+$bg-c2-dark: rgba(0, 0, 0, .3);
+$bg-c3-dark: #e2e2e2;
+$bg-c4-dark: #DDDDDD;
+$bg-c5-dark: #ececec;
+$bg-c1-purple: #AC73FF;
+// ----------------Breakpoint----------------
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+// ----------------Mixin----------------
+@mixin text($fs: $text-base, $fw: $text-regular, $fc: $text-c1-dark) {
+  font-size: $fs;
+  font-weight: $fw;
+  color: $fc;
+}
+
+;
+
+@mixin res-sm {
+  @media (max-width: #{$sm}) {
+    @content;
+  }
+}
+
+@mixin res-md {
+  @media (max-width: #{$md}) {
+    @content;
+  }
+}
+
+@mixin res-lg {
+  @media (max-width: #{$lg}) {
+    @content;
+  }
+}
+
+@mixin res-xl {
+  @media (max-width: #{$xl}) {
+    @content;
+  }
+}
+
+@mixin res-xxl {
+  @media (max-width: #{$xxl}) {
+    @content;
+  }
+}

@@ -1,0 +1,15 @@
+.detail_content--des-bottom {
+  .bottom_item {
+    margin-bottom: 16px;
+  }
+  .bottom_icon {
+    width: 24px;
+    margin-right: 16px;
+  }
+  .bottom_text {
+    @include text(16px, 400, rgba(34, 34, 34, 0.8));
+  }
+  .detail_des-line {
+    text-decoration: line-through;
+  }
+}
